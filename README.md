@@ -1,4 +1,4 @@
----
+
 🎮 Arduino Tic-Tac-Toe (Tinkercad Circuit)
 --
 An interactive Tic-Tac-Toe game implemented with Arduino, a 4x4 keypad, and three I2C LCD displays.
@@ -65,9 +65,10 @@ LCD 3	Third row of the board
 
 Example board display:
 
-|X|O|X|  
-| |X|O|  
-|O| | |  
+| x | o | x |
+|-|-|-|
+|   | x | o |
+| o |  |  |
 
 ---
 🎮 How to Play
@@ -125,14 +126,14 @@ The program implements the classic Tic-Tac-Toe rules.
 
 Game Features:
 
-✔ Turn-based gameplay  
-✔ Real-time board updates  
-✔ Win detection:  
-------Horizontal  
-------Vertical  
-------Diagonal    
-✔ Draw detection  
-✔ Manual reset option  
+- ✔ Turn-based gameplay  
+- ✔ Real-time board updates  
+- ✔ Draw detection  
+- ✔ Manual reset option  
+- ✔ Win detection:
+- - - - - - Horizontal  
+- - - - - - Vertical  
+- - - - - - Diagonal  
 
 ---
 🧪 Testing & Debugging
